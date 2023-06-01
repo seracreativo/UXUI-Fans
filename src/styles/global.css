@@ -107,7 +107,7 @@ footer {
 
  
 } .textura2 {
-   /* box-shadow: 0px 20px 75px rgba(0, 0, 0, 0.2); */
+   box-shadow: 0px 20px 75px rgba(0, 0, 0, 0.2);
    background: url(../imgs/noise.webp), rgba(51, 51, 51, 0.8);
    background: url(../imgs/noise.webp), #8D99AE;
    background: url(../imgs/noise.webp), #1f212b;
@@ -195,8 +195,7 @@ footer .lottie {
 }
 
 footer .cont .item1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   gap: 20px;
   
 } footer a {

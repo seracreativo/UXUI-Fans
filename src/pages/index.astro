@@ -1,7 +1,62 @@
 ---
+import "../styles/global.css";
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Bienvenidos a UXUI Fans ✌";
 ---
+<style>
+    .cont-element {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        width: 100%;
+        margin: 20px auto;
+        /* background-color: aliceblue; */
+    overflow-x: scroll;
+    padding: 0px 0px 20px 0px;
+    gap: 20px;
+    }
+    *::-webkit-scrollbar {
+        width: 5px;    
+        height: 5px;    
+    } *::-webkit-scrollbar-track {
+        background: var(--color2);
+        background: none;
+        border-radius: 15px;
+    } *::-webkit-scrollbar-thumb {
+        background-color: var(--color3);
+        background: var(--color2);
+
+        border-radius: 15px;
+    }
+    .element {
+        height: 500px;
+        position: relative;
+        border-radius: 15px;
+        
+        /* margin-right: 20px; */
+        background-color: antiquewhite;
+        block-size: 500px 500px;
+        /* width: px; */
+        min-width: 250px;
+        box-sizing: inherit;
+
+   background: url(../imgs/noise.webp), #1f212b;
+   background-blend-mode: overlay, normal;
+   backdrop-filter: blur(50px);
+
+   border: 1px solid var(--colorLineas);
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
 <BaseLayout pageTitle={pageTitle}>
-    
+    <div class="cont-element">
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+    </div>
 </BaseLayout>
