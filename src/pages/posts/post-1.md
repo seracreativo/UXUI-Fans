@@ -4,7 +4,7 @@ title: Post 1
 pubDate: 2022-07-01
 description: 'Descripción del blog'
 author: 'Frank Sera'
-image: "https://www.freecodecamp.org/espanol/news/content/images/size/w1000/2022/06/kobu-agency-ipARHaxETRk-unsplash.jpg"
+image: https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
 
 tags: ["astro", "bloguear", "aprender en público"]
 ---
