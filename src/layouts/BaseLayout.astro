@@ -1,8 +1,14 @@
 ---
+// Estilos
 import "../styles/global.css";
-const { pageTitle } = Astro.props;
+
+// Componentes
+
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+
+// Variables
+const { pageTitle } = Astro.props;
 ---
 
 <html lang="en">
@@ -13,23 +19,32 @@ import Footer from "../components/Footer.astro";
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
     </head>
+
     <body>
+
+        <!-- Navegación -->
         <Header />
+
+        <!-- Títulos -->
         <div class="textura">
             <div class="post">
                 <h1>{pageTitle}</h1>
             </div>
         </div>
+
+        <!-- Inyeccion contenidos -->
         <main>
             <slot />
         </main>
 
+        <!-- Footer -->
         <Footer />
 
-        <script>
-            
+        <!-- JS -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js">
             import "../scripts/menu.js";
         </script>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        
     </body>
+
 </html>

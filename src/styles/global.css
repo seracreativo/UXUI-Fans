@@ -30,6 +30,14 @@ html {
   min-height: 100%;
   position: relative;
 }
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
 
 header {
   border-bottom: solid 1px var(--colorLineas);
@@ -62,7 +70,7 @@ body {
   margin: 0 auto;
   min-height: 100%;
   line-height: 1.5;
-  padding-bottom: 350px;
+  padding-bottom: 150px;
 }
 .post {
   max-width: var(--maxWidth);

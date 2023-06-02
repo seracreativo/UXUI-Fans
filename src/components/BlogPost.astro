@@ -1,5 +1,13 @@
 ---
-const { title, url } = Astro.props;
+import "../styles/blog.css";
+const { title, url, img } = Astro.props;
+const style = `background-image: url(` + img + `);`;
 ---
 
-<li><a href={url}>{title}</a></li>
+<a href={url} >
+    <li class="element textura2">
+        <!-- <img src={img}> -->
+        <img class="img" {style} />
+        <h2>{title}</h2>
+    </li>
+</a>

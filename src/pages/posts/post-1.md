@@ -1,12 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mi primer post en el blog'
+title: Post 1
 pubDate: 2022-07-01
 description: 'Descripción del blog'
 author: 'Frank Sera'
-image:
-    url: '' 
-    alt: ''
+image: "https://www.freecodecamp.org/espanol/news/content/images/size/w1000/2022/06/kobu-agency-ipARHaxETRk-unsplash.jpg"
+
 tags: ["astro", "bloguear", "aprender en público"]
 ---
 # H1

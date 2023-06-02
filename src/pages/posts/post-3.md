@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Post 4
+title: Post 3
 author: Astro alumno
 description: "Tuve algunos problemas, pero preguntar en la comunidad me ayudó mucho."
 image: "https://www.freecodecamp.org/espanol/news/content/images/size/w1000/2022/06/kobu-agency-ipARHaxETRk-unsplash.jpg"

@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Bienvenidos a UXUI Fans ✌";
 ---
 <style>
@@ -51,6 +52,7 @@ const pageTitle = "Bienvenidos a UXUI Fans ✌";
 
 
 <BaseLayout pageTitle={pageTitle}>
+    <!-- <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} /> -->
     <div class="cont-element">
         <div class="element"></div>
         <div class="element"></div>

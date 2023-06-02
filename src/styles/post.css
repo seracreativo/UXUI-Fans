@@ -1,0 +1,5 @@
+main div {
+    max-width: 600px;
+    display: grid;
+    margin: auto;
+}
